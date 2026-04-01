@@ -466,24 +466,15 @@ a {
   border-radius: var(--radius-lg);
 }
 
-/* Story image background — beautiful gradient botanicals */
-.story-image--1 {
-  background:
-    radial-gradient(circle at 30% 70%, rgba(44, 74, 62, 0.4) 0%, transparent 60%),
-    linear-gradient(135deg, #C5A882 0%, #D4B896 40%, #8CAF9A 100%);
+.story-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
 }
 
-.story-image--2 {
-  background:
-    radial-gradient(circle at 70% 30%, rgba(44, 74, 62, 0.35) 0%, transparent 55%),
-    linear-gradient(160deg, #7A9E8E 0%, #C4A870 50%, #E8D5B0 100%);
-}
 
-.story-image--3 {
-  background:
-    radial-gradient(circle at 50% 80%, rgba(212, 175, 122, 0.5) 0%, transparent 60%),
-    linear-gradient(120deg, #3D6B5C 0%, #8BAF9A 40%, #D4AF7A 100%);
-}
 
 .image-overlay {
   position: absolute;
