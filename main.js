@@ -246,12 +246,12 @@ function initParallax() {
  * Calculates the time remaining until April 12, 2026 at 10:00 AM IST (UTC+5:30).
  * Updates every second. Adds a CSS flip animation on each number change.
  *
- * IST offset: UTC+5:30 → April 12, 2026 10:00 AM IST = April 12, 2026 04:30 UTC
+ * IST offset: UTC+5:30 → April 11, 2026 10:45 AM IST = April 11, 2026 05:15 UTC
  */
 function initCountdown() {
-  // Wedding datetime in IST: April 12, 2026 at 10:00 AM
-  // ISO string with offset: "2026-04-12T10:00:00+05:30"
-  const weddingDate = new Date("2026-04-12T10:00:00+05:30").getTime();
+  // Wedding datetime in IST: April 11, 2026 at 10:45 AM
+  // ISO string with offset: "2026-04-11T10:45:00+05:30"
+  const weddingDate = new Date("2026-04-11T10:45:00+05:30").getTime();
 
   // Cache DOM references
   const daysEl    = document.getElementById("days");
