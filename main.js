@@ -17,8 +17,14 @@
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
+// Import Vercel Analytics
+import { inject } from '@vercel/analytics';
+
 // Register ScrollTrigger plugin with GSAP
 gsap.registerPlugin(ScrollTrigger);
+
+// Initialize Vercel Web Analytics
+inject();
 
 // ══════════════════════════════════════════════
 // SECTION 1: PRELOADER
